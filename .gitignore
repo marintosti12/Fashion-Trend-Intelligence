@@ -68,3 +68,6 @@ venv.bak/
 
 # VS Code settings (if any)
 .vscode/
+
+/top_influenceurs_2024/
+/results/

@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Fashion Trend Prediction"
 authors = ["Marin TOSTIVINT"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -16,6 +17,9 @@ pillow = "^11.2.1"
 matplotlib = "^3.10.3"
 numpy = "^2.2.6"
 python-dotenv = "^1.1.0"
+transformers = "^4.52.4"
+torch = "^2.7.0"
+jupyter = "^1.1.1"
 
 
 [build-system]
