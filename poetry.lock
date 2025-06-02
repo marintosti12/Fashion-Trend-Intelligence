@@ -1951,6 +1951,20 @@ files = [
 six = ">=1.5"
 
 [[package]]
+name = "python-dotenv"
+version = "1.1.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "python_dotenv-1.1.0-py3-none-any.whl", hash = "sha256:d7c01d9e2293916c18baf562d95698754b0dbbb5e74d457c45d4f6561fb9d55d"},
+    {file = "python_dotenv-1.1.0.tar.gz", hash = "sha256:41f90bc6f5f177fb41f53e87666db362025010eb28f60a01c9143bfa33a2b2d5"},
+]
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "python-json-logger"
 version = "3.3.0"
 description = "JSON Log Formatter for the Python Logging Package"
@@ -2671,4 +2685,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "f63050a995e18c84f992f940ddc1daefd0f8dd712740bb1e15ec267db8848cab"
+content-hash = "13d3175abf3809924e9ddc14b4196d6efafe56c3b9a2a4ad0c4b8df83d41c9e8"
